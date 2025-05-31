@@ -21,7 +21,7 @@ export default function LetterPage({ setCurrentPage }) {
           transition={{ duration: 0.8, delay: 0.3 }}
           className="text-2xl text-pink-300 mb-8 mt-10 md:mt-0"
         >
-          I've been staring at these all night… 🌙
+          I've been staring at these all night…🌙
         </motion.h2>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
@@ -46,8 +46,9 @@ export default function LetterPage({ setCurrentPage }) {
               <div className="bg-white p-3 rounded-2xl shadow-lg transform transition-all duration-300 group-hover:shadow-pink-200/40 max-w-[200px]">
                 {/* Photo area */}
                 <div className="relative overflow-hidden rounded-xl bg-gradient-to-br from-pink-50 to-purple-50">
+                  {/* Save the photos with name like 1.jpg, 2.jpg ... and change the src to this - /images/${i}.jpg */}
                   <img
-                    src={`/placeholder.svg?height=160&width=140`}
+                    src={`/images/1.jpg`}
                     alt={`Beautiful memory ${i}`}
                     className="w-full h-36 object-cover"
                   />
@@ -72,15 +73,14 @@ export default function LetterPage({ setCurrentPage }) {
                 </div>
               </div>
 
-              {/* Cute washi tape - different colors for each */}
+              {/* Cute tape - different colors for each */}
               <div
-                className={`absolute -top-2 left-1/2 transform -translate-x-1/2 w-12 h-6 rounded-md shadow-sm opacity-90 ${
-                  i === 1
-                    ? "bg-gradient-to-r from-yellow-200 to-yellow-300 border border-yellow-400/30"
-                    : i === 2
-                      ? "bg-gradient-to-r from-green-200 to-green-300 border border-green-400/30"
-                      : "bg-gradient-to-r from-blue-200 to-blue-300 border border-blue-400/30"
-                }`}
+                className={`absolute -top-2 left-1/2 transform -translate-x-1/2 w-12 h-6 rounded-md shadow-sm opacity-90 ${i === 1
+                  ? "bg-gradient-to-r from-yellow-200 to-yellow-300 border border-yellow-400/30"
+                  : i === 2
+                    ? "bg-gradient-to-r from-green-200 to-green-300 border border-green-400/30"
+                    : "bg-gradient-to-r from-blue-200 to-blue-300 border border-blue-400/30"
+                  }`}
               ></div>
 
               {/* Floating cute elements */}
@@ -129,7 +129,7 @@ export default function LetterPage({ setCurrentPage }) {
             transition={{ duration: 0.8, delay: 1.5 }}
             className="text-xl text-purple-200 leading-relaxed"
           >
-            You're so beautiful, but I still hurt you… I'm sorry. 💔
+            You're so beautiful, but I still hurt you… I'm so sorry.💔
           </motion.p>
 
           <motion.p
@@ -138,10 +138,17 @@ export default function LetterPage({ setCurrentPage }) {
             transition={{ duration: 0.8, delay: 1.8 }}
             className="text-lg text-pink-200 leading-relaxed max-w-lg mx-auto"
           >
-            I know words can't undo what I did, but I need you to know that you mean everything to me. I've been
-            thinking about all our beautiful moments together, and I realize how much I've hurt the most precious person
-            in my life. I promise to do better, to be better, for you. ✨
+            I know words can't undo what I did, but I need you to know that you mean everything to me. I've been thinking about all our beautiful moments together, and I realize how much I've hurt the most precious person in my life. I promise to do better, to be better, for you.✨
           </motion.p>
+          <motion.p
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 3, duration: 0.8 }}
+            className="text-pink-300 text-xl mt-6"
+          >
+            Can you please forgive me…?💔
+          </motion.p>
+
         </motion.div>
 
         <motion.button
@@ -157,7 +164,7 @@ export default function LetterPage({ setCurrentPage }) {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 2.5, duration: 0.8 }}
         >
-          There's something I need...
+          I need you...
         </motion.button>
       </motion.div>
     </div>

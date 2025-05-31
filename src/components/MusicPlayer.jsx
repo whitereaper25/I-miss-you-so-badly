@@ -37,6 +37,7 @@ export default function MusicPlayer({ musicPlaying, setMusicPlaying }) {
         {musicPlaying ? <Volume2 size={20} /> : <VolumeX size={20} />}
       </motion.button>
 
+      {/* Change the audio source to original one */}
       <audio ref={audioRef} loop preload="auto">
         <source src="https://www.soundjay.com/misc/sounds/bell-ringing-05.wav" type="audio/wav" />
       </audio>

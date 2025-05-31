@@ -12,7 +12,7 @@ import GiftPage from "@/components/GiftPage"
 import MusicPlayer from "@/components/MusicPlayer"
 
 export default function Home() {
-  const [currentPage, setCurrentPage] = useState("gift")
+  const [currentPage, setCurrentPage] = useState("opening")
   const [musicPlaying, setMusicPlaying] = useState(false)
   const [showMusicPlayer, setShowMusicPlayer] = useState(false)
 

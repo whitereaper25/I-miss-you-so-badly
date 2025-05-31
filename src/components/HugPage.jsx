@@ -96,7 +96,7 @@ export default function HugPage({ setCurrentPage }) {
           transition={{ duration: 0.8, delay: 0.8 }}
           className="text-2xl text-pink-200 leading-relaxed"
         >
-          Right now, all I need is…🌟
+          I don’t need anything fancy right now…
         </motion.p>
         <motion.p
           initial={{ opacity: 0, y: 15 }}
@@ -104,7 +104,7 @@ export default function HugPage({ setCurrentPage }) {
           transition={{ duration: 0.8, delay: 1.1 }}
           className="text-xl text-purple-200 leading-relaxed"
         >
-          a warm hug from you💕
+          Just your arms around me, that’s all I want.💕
         </motion.p>
       </motion.div>
 
@@ -139,7 +139,7 @@ export default function HugPage({ setCurrentPage }) {
       </motion.button>
 
       <AnimatePresence>
-      <div className="fixed inset-0 z-40 pointer-events-none w-full h-full">
+        <div className="fixed inset-0 z-40 pointer-events-none w-full h-full">
           {showHearts &&
             hearts.map((heart) => (
               <motion.div

@@ -1,7 +1,7 @@
 import "./globals.css"
 
 export const metadata = {
-  title: "I'm Sorry - A Personal Apology",
+  title: "I'm Sorry",
   description: "A heartfelt apology website",
 }
 
