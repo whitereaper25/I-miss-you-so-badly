@@ -9,6 +9,7 @@ export default function MusicPlayer({ musicPlaying, setMusicPlaying }) {
 
   useEffect(() => {
     if (audioRef.current) {
+      // audioRef.current.volume = 0.5; // Adjust the song volume here
       if (musicPlaying) {
         audioRef.current.play().catch(console.error)
       } else {
@@ -39,7 +40,7 @@ export default function MusicPlayer({ musicPlaying, setMusicPlaying }) {
 
       {/* Change the audio source to original one */}
       <audio ref={audioRef} loop preload="auto">
-        <source src="https://www.soundjay.com/misc/sounds/bell-ringing-05.wav" type="audio/wav" />
+        <source src="/audio/bg.mp3" type="audio/wav" />
       </audio>
     </motion.div>
   )
