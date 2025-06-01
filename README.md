@@ -1,36 +1,46 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 💞 Sorry Website - A Heartfelt Apology Site
 
-## Getting Started
+This is a special website made to say sorry in a sweet and creative way.  
+You can customize it with your own letter, photos, and even add a background song to make it more personal.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ✨ What You Can Customize
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Your own apology letter text  
+- Add photos to make it special  
+- Add a background song to set the mood  
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠️ Tech Stack
 
-## Learn More
+- Next.js  
+- Tailwind CSS  
+- Framer Motion (for smooth animations)  
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 👋 About Me
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Hey! I'm **Anuj**, a web developer and student who loves building unique websites like this to help people express feelings online.
 
-## Deploy on Vercel
+Find me here:  
+- Instagram: [@anujbuilds](https://instagram.com/anujbuilds)  
+- YouTube: [@anujbuilds](https://youtube.com/anujbuilds)  
+- Twitter: [@anujbuilds](https://twitter.com/anujbuilds)  
+- LinkedIn: [anujchaudhary549](https://linkedin.com/in/anujchaudhary549)  
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📩 Want a Custom Version?
+
+If you want a **live, personalized version** with your own names, messages, photos, or song, just DM me on Instagram or reach out on any social platform above!
+
+---
+
+Thank you for checking out this project! If you like it, please ⭐ star the repo and share it with your friends.
+
+---
+
+_Made with 💖 by Anuj_
