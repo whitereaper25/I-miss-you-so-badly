@@ -32,10 +32,9 @@ export default function GiftPage() {
       </motion.div>
 
       <motion.div
-        className="absolute top-32 right-10 text-xl"
+        className="absolute md:top-32 right-10 text-xl"
         animate={{
-          y: [0, -6, 0],
-          scale: [1, 1.2, 1],
+          y: [0, -5, 0],
         }}
         transition={{
           duration: 2.5,
