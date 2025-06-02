@@ -34,7 +34,6 @@ export default function DiaryPage({ setCurrentPage }) {
         >
           <h1 className="text-3xl text-pink-300 mb-8 leading-relaxed">My Sorry Letter to You…</h1>
 
-          {/* Add cute teddy sitting and writing */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
