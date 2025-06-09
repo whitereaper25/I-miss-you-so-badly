@@ -48,7 +48,7 @@ export default function LetterPage({ setCurrentPage }) {
                 <div className="relative overflow-hidden rounded-xl bg-gradient-to-br from-pink-50 to-purple-50">
                   {/* Save the photos with name like 1.jpg, 2.jpg ... and change the src to this - /images/${i}.jpg */}
                   <img
-                    src={`/images/1.jpg`}
+                    src={`/images/${i}.jpg`}
                     alt={`Beautiful memory ${i}`}
                     className="w-full h-36 object-cover"
                   />
@@ -129,7 +129,7 @@ export default function LetterPage({ setCurrentPage }) {
             transition={{ duration: 0.8, delay: 1.5 }}
             className="text-xl text-purple-200 leading-relaxed"
           >
-            You're so beautiful, but I still hurt you… I'm so sorry.💔
+            You're so beautiful, but I have hurt you many times… I'm so sorry.💔
           </motion.p>
 
           <motion.p
@@ -138,7 +138,7 @@ export default function LetterPage({ setCurrentPage }) {
             transition={{ duration: 0.8, delay: 1.8 }}
             className="text-lg text-pink-200 leading-relaxed max-w-lg mx-auto"
           >
-            I know words can't undo what I did, but I need you to know that you mean everything to me. I've been thinking about all our beautiful moments together, and I realize how much I've hurt the most precious person in my life. I promise to do better, to be better, for you.✨
+            I know words can't undo what I did, but I need you to know that you mean everything to me. I've been thinking about all our beautiful moments together in Hyderabad when you were busy and away from me, and I shouldn't control my tears. It was paining so much I was afraid to even close my eyes at night. I was so scared and felt vulnerable. I miss your touch, kisses and hugs so much. I want to always be with you and u know my heart was filled with fear when I woke up and You weren't present near me in Hyderabad(You were in Restroom). I've hurt the most precious person in my life many times. But I miss you terribly I am not joking but I seriously can't live without you cause I fell so hard for you and I am deeply attached to you. Your my mother, girlfriend, wife, friend and everything to me. I promise to do better, to be better, for you.✨
           </motion.p>
           <motion.p
             initial={{ opacity: 0, y: 10 }}
@@ -146,7 +146,8 @@ export default function LetterPage({ setCurrentPage }) {
             transition={{ delay: 3, duration: 0.8 }}
             className="text-pink-300 text-xl mt-6"
           >
-            Can you please forgive me…?💔
+            please forgive me for everything…💔
+            And be mine forever
           </motion.p>
 
         </motion.div>
