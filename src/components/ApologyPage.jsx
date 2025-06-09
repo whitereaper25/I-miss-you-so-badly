@@ -6,7 +6,7 @@ import { useState, useEffect } from "react"
 export default function ApologyPage({ setCurrentPage }) {
   const [currentText, setCurrentText] = useState(0)
 
-  const texts = ["I know I hurt you...", "You didn't deserve that...", "I was wrong, and I'm so sorry..."]
+  const texts = ["I know I hurt you many times...", "You didn't deserve that...", "I was wrong, and I'm so sorry..."]
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -64,7 +64,7 @@ export default function ApologyPage({ setCurrentPage }) {
         animate={{ opacity: 1 }}
         transition={{ delay: 2 }}
       >
-        Read my letter...
+        My feelings and pains...
       </motion.button>
     </div>
   )
