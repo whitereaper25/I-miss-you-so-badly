@@ -204,7 +204,7 @@ export default function GiftPage() {
                       className="text-lg text-purple-200 leading-relaxed"
                     >
                       Just like my love for you. I promise to cherish you every single day, and never take your
-                      beautiful heart for granted again.💖
+                      beautiful heart for granted.💖
                     </motion.p>
                     <motion.p
                       initial={{ opacity: 0, y: 15 }}
