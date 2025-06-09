@@ -139,6 +139,7 @@ export default function LetterPage({ setCurrentPage }) {
             className="text-lg text-pink-200 leading-relaxed max-w-lg mx-auto"
           >
             I know words can't undo what I did, but I need you to know that you mean everything to me. I've been thinking about all our beautiful moments together in Hyderabad—especially those few days when you were away in the village. I couldn’t hold back my tears; it hurt so much. I was afraid to even close my eyes at night. I felt scared and vulnerable. I miss your touch, your kisses, your hugs—everything. I want to always be with you. Do you remember that morning in Hyderabad when I woke up and you weren't beside me? You were just in the restroom, but my heart was already filled with fear. I’ve hurt the most precious person in my life more times than I can forgive myself for. But I miss you terribly. I'm not joking—I seriously can’t live without you. I’ve fallen so hard for you, and I’m deeply attached to you. You are my mother, my girlfriend, my wife, my friend—my everything. I promise to do better, to be better—for you. ✨
+          </motion.p>
           <motion.p
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
